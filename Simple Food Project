@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Food Project </title>
+        <style>
+            #topbar {
+                background-color: lightseagreen;
+                padding: 24px;
+            }
+            .menu {
+                font-size: 24px;
+                padding: 8px;
+                font-weight: 600;
+            }
+            #list-heading {
+                font-size: 20px;
+                padding-left: 24px;
+            }
+            .food-item {
+                font-size: 20px;
+            }
+            .food--image {
+                width: 400px;
+                height: 400px;
+            }
+            .food-Wrapper {
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body style="margin: 0; 
+    background-color: lightgrey;">
+        <div id="topbar">
+            <span
+            class="menu">Index</span>
+            <span
+            class="menu">Food</span>
+            <span
+            class="menu">about</span>
+        </div>
+        <h3 id="list-heading">Favourite Fodds :----</h3>
+        <ul>
+            <li><a class="food-item" 
+                href="#Purnpoli">Puranpoli</a></li>
+            <li><a href="#Misal">Misal Pav</a></li>
+            <li><a href="#zunka">Zunka</a></li>
+            <li><a href="#Thalipeeth">Thalipeeth</a></li>
+            <li><a href="#Khichadi">Sabudana Khichdi</a></li>
+        </ul>
+        <div  class="food-wrapper"> 
+            <img id="Puranpoli"
+            src="https:
+            //in.pinterest.com/
+            pin/109775309656485425/" alt="Puranpoli"/>
+            <p>Puranpoli </p>
+        </div>
+        <div id="Misal "
+        class="food-wrapper">  
+            <img class="food-image"
+            src="https://in.pinterest.com/
+            pin/146226319139298350/" alt="Misal Pav"/>
+            <p>Misal Pav </p>
+        </div>
+        <div class="food-wrapper"> 
+            <img id="Puranpoli"
+            class="food-image"
+            src="https://in.pinterest.com/
+            pin/561683384781674480/" alt="Zunka"/>
+            <p>Zunka </p>
+        </div>
+        <div id="Thalipeeth" 
+        class="food-wrapper"> 
+            <img class="food-image"
+            src="https://in.pinterest.com/
+            pin/763782418044349286/ alt="Thalipeeth"/>
+            <p>Thalipeeth</p>
+        </div>
+        <div id="Khichadi"
+        class="food-wrapper"> 
+            <img class="food-image"
+            src="https://in.pinterest.com/
+            pin/509680882821779479/ alt="Khichdi"/>
+            <p>Khichdi </p>
+        </div>
+        
+    </body>
+</html>
